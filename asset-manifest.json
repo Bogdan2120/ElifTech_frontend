@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Bogdan2120/ElifTech_frontend/static/css/main.dccbf7d7.css",
-    "main.js": "/Bogdan2120/ElifTech_frontend/static/js/main.c7a58b7e.js",
-    "static/css/714.8d5f4487.chunk.css": "/Bogdan2120/ElifTech_frontend/static/css/714.8d5f4487.chunk.css",
-    "static/js/714.56127a22.chunk.js": "/Bogdan2120/ElifTech_frontend/static/js/714.56127a22.chunk.js",
-    "static/css/429.cfa26220.chunk.css": "/Bogdan2120/ElifTech_frontend/static/css/429.cfa26220.chunk.css",
-    "static/js/429.be86464b.chunk.js": "/Bogdan2120/ElifTech_frontend/static/js/429.be86464b.chunk.js",
-    "static/css/701.51518d33.chunk.css": "/Bogdan2120/ElifTech_frontend/static/css/701.51518d33.chunk.css",
-    "static/js/701.61a57f84.chunk.js": "/Bogdan2120/ElifTech_frontend/static/js/701.61a57f84.chunk.js",
-    "static/js/794.f4047b27.chunk.js": "/Bogdan2120/ElifTech_frontend/static/js/794.f4047b27.chunk.js",
-    "index.html": "/Bogdan2120/ElifTech_frontend/index.html",
-    "main.dccbf7d7.css.map": "/Bogdan2120/ElifTech_frontend/static/css/main.dccbf7d7.css.map",
-    "main.c7a58b7e.js.map": "/Bogdan2120/ElifTech_frontend/static/js/main.c7a58b7e.js.map",
-    "714.8d5f4487.chunk.css.map": "/Bogdan2120/ElifTech_frontend/static/css/714.8d5f4487.chunk.css.map",
-    "714.56127a22.chunk.js.map": "/Bogdan2120/ElifTech_frontend/static/js/714.56127a22.chunk.js.map",
-    "429.cfa26220.chunk.css.map": "/Bogdan2120/ElifTech_frontend/static/css/429.cfa26220.chunk.css.map",
-    "429.be86464b.chunk.js.map": "/Bogdan2120/ElifTech_frontend/static/js/429.be86464b.chunk.js.map",
-    "701.51518d33.chunk.css.map": "/Bogdan2120/ElifTech_frontend/static/css/701.51518d33.chunk.css.map",
-    "701.61a57f84.chunk.js.map": "/Bogdan2120/ElifTech_frontend/static/js/701.61a57f84.chunk.js.map",
-    "794.f4047b27.chunk.js.map": "/Bogdan2120/ElifTech_frontend/static/js/794.f4047b27.chunk.js.map"
+    "main.css": "/ElifTech_frontend/static/css/main.dccbf7d7.css",
+    "main.js": "/ElifTech_frontend/static/js/main.029a8b91.js",
+    "static/css/714.8d5f4487.chunk.css": "/ElifTech_frontend/static/css/714.8d5f4487.chunk.css",
+    "static/js/714.56127a22.chunk.js": "/ElifTech_frontend/static/js/714.56127a22.chunk.js",
+    "static/css/429.cfa26220.chunk.css": "/ElifTech_frontend/static/css/429.cfa26220.chunk.css",
+    "static/js/429.be86464b.chunk.js": "/ElifTech_frontend/static/js/429.be86464b.chunk.js",
+    "static/css/701.51518d33.chunk.css": "/ElifTech_frontend/static/css/701.51518d33.chunk.css",
+    "static/js/701.61a57f84.chunk.js": "/ElifTech_frontend/static/js/701.61a57f84.chunk.js",
+    "static/js/794.f4047b27.chunk.js": "/ElifTech_frontend/static/js/794.f4047b27.chunk.js",
+    "index.html": "/ElifTech_frontend/index.html",
+    "main.dccbf7d7.css.map": "/ElifTech_frontend/static/css/main.dccbf7d7.css.map",
+    "main.029a8b91.js.map": "/ElifTech_frontend/static/js/main.029a8b91.js.map",
+    "714.8d5f4487.chunk.css.map": "/ElifTech_frontend/static/css/714.8d5f4487.chunk.css.map",
+    "714.56127a22.chunk.js.map": "/ElifTech_frontend/static/js/714.56127a22.chunk.js.map",
+    "429.cfa26220.chunk.css.map": "/ElifTech_frontend/static/css/429.cfa26220.chunk.css.map",
+    "429.be86464b.chunk.js.map": "/ElifTech_frontend/static/js/429.be86464b.chunk.js.map",
+    "701.51518d33.chunk.css.map": "/ElifTech_frontend/static/css/701.51518d33.chunk.css.map",
+    "701.61a57f84.chunk.js.map": "/ElifTech_frontend/static/js/701.61a57f84.chunk.js.map",
+    "794.f4047b27.chunk.js.map": "/ElifTech_frontend/static/js/794.f4047b27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dccbf7d7.css",
-    "static/js/main.c7a58b7e.js"
+    "static/js/main.029a8b91.js"
   ]
 }
