@@ -12,7 +12,7 @@ const CartPage = () => {
   const [phone, setPhone] = useState('');
   const [address, setAddress] = useState('');
   const [price, setPrice] = useState(0);
-  const { amountFood, foods } = useSelector(getBasket);
+  const { amountFood } = useSelector(getBasket);
   const dispatch = useDispatch();
 
   useEffect(() => {
