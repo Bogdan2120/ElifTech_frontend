@@ -20,7 +20,7 @@ const FoodBasket = () => {
       foods.map(item => items.push({ ...item, amount: 1 }));
       setFood([...items]);
     }
-  }, [food]);
+  }, [food, dispatch, foods]);
 
   const addFood = (amountValue, id) => {
     const newFood = food.filter(item => item._id !== id);
