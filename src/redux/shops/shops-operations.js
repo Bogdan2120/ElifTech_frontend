@@ -1,5 +1,4 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import Notiflix from 'notiflix';
 
 import * as api from 'redux/api/shops-api';
 

@@ -22,18 +22,16 @@ const FoodBasket = () => {
     }
   }, [food, dispatch, foods]);
 
-  const addFood = (amountValue, id) => {
-    const newFood = food.filter(item => item._id !== id);
-    foods.filter(item => {
-      if (item._id === id) {
-        const data = {
-          ...item,
-          amount: Number(amountValue),
-        };
-
-        setFood([...newFood, data]);
-      }
-    });
+  const amountFood = (amountValue, id) => {
+    const newFood = food.map(item =>
+      item._id === id
+        ? {
+            ...item,
+            amount: Number(amountValue),
+          }
+        : item
+    );
+    setFood(newFood);
   };
 
   return (
@@ -41,7 +39,7 @@ const FoodBasket = () => {
       {foods.map(({ imageUrl, price, title, _id }) => {
         return (
           <div key={_id} className={styles.foodCard}>
-            <img className={styles.foodCard__img} src={imageUrl} />
+            <img className={styles.foodCard__img} alt={title} src={imageUrl} />
             <div className={styles.foodCard__info}>
               <h4 className={styles.foodCard__title}>{title}</h4>
               <p className={styles.foodCard__price}>
@@ -56,7 +54,7 @@ const FoodBasket = () => {
                 step="1"
                 onChange={e => {
                   const amountValue = e.target.value;
-                  addFood(amountValue, _id);
+                  amountFood(amountValue, _id);
                 }}
               />
             </div>

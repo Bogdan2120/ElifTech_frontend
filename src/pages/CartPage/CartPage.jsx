@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { Report } from 'notiflix/build/notiflix-report-aio';
 import FoodBasket from 'components/FoodBasket/FoodBasket';
 import { getBasket } from 'redux/basket/basket-selectors';
 import { addCart } from 'redux/basket/basket-operations';
@@ -11,7 +12,7 @@ const CartPage = () => {
   const [phone, setPhone] = useState('');
   const [address, setAddress] = useState('');
   const [price, setPrice] = useState(0);
-  const { amountFood } = useSelector(getBasket);
+  const { amountFood, foods } = useSelector(getBasket);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -25,6 +26,11 @@ const CartPage = () => {
 
   const submitCard = e => {
     e.preventDefault();
+    if (price === 0) {
+      Report.warning('Warning', 'Please, add foods', 'Okey');
+      console.log(0);
+      return;
+    }
     const cart = {
       name,
       email,

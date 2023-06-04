@@ -16,7 +16,7 @@ const FoodCard = () => {
         const { imageUrl, price, title, _id } = food;
         return (
           <div key={_id} className={styles.foodCard}>
-            <img className={styles.foodCard__img} src={imageUrl} />
+            <img className={styles.foodCard__img} alt={title} src={imageUrl} />
             <div className={styles.foodCard__info}>
               <h4 className={styles.foodCard__title}>{title}</h4>
               <p className={styles.foodCard__price}>
