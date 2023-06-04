@@ -2,7 +2,7 @@
   "name": "foodi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Bogdan2120/ElifTech_frontend",
+  "homepage": "https://bogdan2120.github.io/ElifTech_frontend/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "@testing-library/jest-dom": "^5.16.3",
